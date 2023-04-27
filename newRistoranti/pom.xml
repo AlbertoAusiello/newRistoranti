@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>it.sysman</groupId>
-	<artifactId>progetto-ristoranti</artifactId>
+	<artifactId>progettoristoranti</artifactId>
 	<version>1.0</version>
-	<name>progetto-ristoranti</name>
+	<name>newRistoranti</name>
 	<description>Ti piacciono i ristoranti? A me no!</description>
 	<properties>
 		<java.version>17</java.version>
@@ -37,11 +37,11 @@
 			<exclusions>
             <exclusion>
                 <groupId>log4j</groupId>
-                <artifactId></artifactId>
+                <artifactId>*</artifactId>
             </exclusion>
             <exclusion>
                 <groupId>org.slf4j</groupId>
-                <artifactId></artifactId>
+                <artifactId>*</artifactId>
             </exclusion>
             <exclusion>
                 <groupId>org.apache.logging.log4j</groupId>
@@ -63,6 +63,19 @@
 		    <version>2.10.1</version>
 		</dependency>
 
+<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-api</artifactId>
+		    <version>2.20.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-core</artifactId>
+		    <version>2.20.0</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
