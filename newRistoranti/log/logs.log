@@ -1,0 +1,102 @@
+2023-04-27 12:29:16,531 INFO  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:29 Isnfo message
+2023-04-27 12:29:16,532 WARN  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:30 Warning message
+2023-04-27 12:29:16,532 ERROR [restartedMain] progettoristoranti.ProgettoRistorantiApplication:31 Error message
+2023-04-27 12:29:16,533 FATAL [restartedMain] progettoristoranti.ProgettoRistorantiApplication:32 Fatal message
+2023-04-27 12:35:29,801 INFO  [http-nio-8080-exec-5] servlet.FrameworkServlet:532 Initializing Servlet 'dispatcherServlet'
+2023-04-27 12:35:29,803 INFO  [http-nio-8080-exec-5] servlet.FrameworkServlet:554 Completed initialization in 1 ms
+2023-04-27 12:37:22,878 INFO  [File Watcher] autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-04-27 12:37:22,912 INFO  [Thread-5] jpa.AbstractEntityManagerFactoryBean:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 12:37:23,021 INFO  [restartedMain] logging.DeferredLog:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-27 12:37:23,022 INFO  [restartedMain] logging.DeferredLog:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-27 12:37:23,031 INFO  [restartedMain] boot.StartupInfoLogger:51 Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 21028 (C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti)
+2023-04-27 12:37:23,032 INFO  [restartedMain] boot.SpringApplication:632 No active profile set, falling back to 1 default profile: "default"
+2023-04-27 12:37:23,421 INFO  [restartedMain] config.RepositoryConfigurationDelegate:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 12:37:23,463 INFO  [restartedMain] config.RepositoryConfigurationDelegate:208 Finished Spring Data repository scanning in 40 ms. Found 4 JPA repository interfaces.
+2023-04-27 12:37:23,655 INFO  [restartedMain] tomcat.TomcatWebServer:108 Tomcat initialized with port(s): 8080 (http)
+2023-04-27 12:37:23,693 INFO  [restartedMain] context.ServletWebServerApplicationContext:291 Root WebApplicationContext: initialization completed in 658 ms
+2023-04-27 12:37:23,909 INFO  [restartedMain] jpa.AbstractEntityManagerFactoryBean:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 12:37:24,626 WARN  [restartedMain] jpa.JpaBaseConfiguration$JpaWebConfiguration:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 12:37:24,954 INFO  [restartedMain] autoconfigure.OptionalLiveReloadServer:59 LiveReload server is running on port 35729
+2023-04-27 12:37:24,970 INFO  [restartedMain] tomcat.TomcatWebServer:220 Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 12:37:25,474 INFO  [restartedMain] boot.StartupInfoLogger:57 Started ProgettoRistorantiApplication in 2.48 seconds (process running for 498.458)
+2023-04-27 12:37:25,480 INFO  [restartedMain] autoconfigure.ConditionEvaluationDeltaLoggingListener:63 Condition evaluation unchanged
+2023-04-27 12:37:25,516 INFO  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:29 Isnfo message
+2023-04-27 12:37:25,517 WARN  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:30 Warning message
+2023-04-27 12:37:25,518 ERROR [restartedMain] progettoristoranti.ProgettoRistorantiApplication:31 Error message
+2023-04-27 12:37:25,518 FATAL [restartedMain] progettoristoranti.ProgettoRistorantiApplication:32 Fatal message
+2023-04-27 12:46:09,859 INFO  [File Watcher] autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-27 12:46:09,883 INFO  [Thread-7] jpa.AbstractEntityManagerFactoryBean:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 12:46:09,974 INFO  [restartedMain] logging.DeferredLog:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-27 12:46:09,975 INFO  [restartedMain] logging.DeferredLog:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-27 12:46:09,985 INFO  [restartedMain] boot.StartupInfoLogger:51 Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 21028 (C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti)
+2023-04-27 12:46:09,986 INFO  [restartedMain] boot.SpringApplication:632 No active profile set, falling back to 1 default profile: "default"
+2023-04-27 12:46:10,315 INFO  [restartedMain] config.RepositoryConfigurationDelegate:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 12:46:10,337 INFO  [restartedMain] config.RepositoryConfigurationDelegate:208 Finished Spring Data repository scanning in 21 ms. Found 4 JPA repository interfaces.
+2023-04-27 12:46:10,460 INFO  [restartedMain] tomcat.TomcatWebServer:108 Tomcat initialized with port(s): 8080 (http)
+2023-04-27 12:46:10,486 INFO  [restartedMain] context.ServletWebServerApplicationContext:291 Root WebApplicationContext: initialization completed in 497 ms
+2023-04-27 12:46:10,667 INFO  [restartedMain] jpa.AbstractEntityManagerFactoryBean:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 12:46:11,233 WARN  [restartedMain] jpa.JpaBaseConfiguration$JpaWebConfiguration:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 12:46:11,539 INFO  [restartedMain] autoconfigure.OptionalLiveReloadServer:59 LiveReload server is running on port 35729
+2023-04-27 12:46:11,554 INFO  [restartedMain] tomcat.TomcatWebServer:220 Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 12:46:11,939 INFO  [restartedMain] boot.StartupInfoLogger:57 Started ProgettoRistorantiApplication in 1.994 seconds (process running for 1024.923)
+2023-04-27 12:46:11,941 INFO  [restartedMain] autoconfigure.ConditionEvaluationDeltaLoggingListener:63 Condition evaluation unchanged
+2023-04-27 12:46:11,957 INFO  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:29 Isnfo message
+2023-04-27 12:46:11,957 WARN  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:30 Warning message
+2023-04-27 12:46:11,957 ERROR [restartedMain] progettoristoranti.ProgettoRistorantiApplication:31 Error message
+2023-04-27 12:46:11,958 FATAL [restartedMain] progettoristoranti.ProgettoRistorantiApplication:32 Fatal message
+2023-04-27 12:46:52,005 INFO  [File Watcher] autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-04-27 12:46:52,026 INFO  [Thread-11] jpa.AbstractEntityManagerFactoryBean:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 12:46:52,101 INFO  [restartedMain] logging.DeferredLog:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-27 12:46:52,102 INFO  [restartedMain] logging.DeferredLog:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-27 12:46:52,109 INFO  [restartedMain] boot.StartupInfoLogger:51 Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 21028 (C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti)
+2023-04-27 12:46:52,110 INFO  [restartedMain] boot.SpringApplication:632 No active profile set, falling back to 1 default profile: "default"
+2023-04-27 12:46:52,369 INFO  [restartedMain] config.RepositoryConfigurationDelegate:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 12:46:52,390 INFO  [restartedMain] config.RepositoryConfigurationDelegate:208 Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
+2023-04-27 12:46:52,502 INFO  [restartedMain] tomcat.TomcatWebServer:108 Tomcat initialized with port(s): 8080 (http)
+2023-04-27 12:46:52,525 INFO  [restartedMain] context.ServletWebServerApplicationContext:291 Root WebApplicationContext: initialization completed in 413 ms
+2023-04-27 12:46:52,654 INFO  [restartedMain] jpa.AbstractEntityManagerFactoryBean:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 12:46:53,265 WARN  [restartedMain] jpa.JpaBaseConfiguration$JpaWebConfiguration:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 12:46:53,599 INFO  [restartedMain] autoconfigure.OptionalLiveReloadServer:59 LiveReload server is running on port 35729
+2023-04-27 12:46:53,619 INFO  [restartedMain] tomcat.TomcatWebServer:220 Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 12:46:54,055 INFO  [restartedMain] boot.StartupInfoLogger:57 Started ProgettoRistorantiApplication in 1.976 seconds (process running for 1067.039)
+2023-04-27 12:46:54,057 INFO  [restartedMain] autoconfigure.ConditionEvaluationDeltaLoggingListener:63 Condition evaluation unchanged
+2023-04-27 12:46:54,077 INFO  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:29 Isnfo message
+2023-04-27 12:46:54,077 WARN  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:30 Warning message
+2023-04-27 12:46:54,077 ERROR [restartedMain] progettoristoranti.ProgettoRistorantiApplication:31 Error message
+2023-04-27 12:46:54,078 FATAL [restartedMain] progettoristoranti.ProgettoRistorantiApplication:32 Fatal message
+2023-04-27 12:48:07,041 INFO  [File Watcher] autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-27 12:48:07,060 INFO  [Thread-15] jpa.AbstractEntityManagerFactoryBean:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 12:48:07,136 INFO  [restartedMain] logging.DeferredLog:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-27 12:48:07,137 INFO  [restartedMain] logging.DeferredLog:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-27 12:48:07,143 INFO  [restartedMain] boot.StartupInfoLogger:51 Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 21028 (C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti)
+2023-04-27 12:48:07,144 INFO  [restartedMain] boot.SpringApplication:632 No active profile set, falling back to 1 default profile: "default"
+2023-04-27 12:48:07,405 INFO  [restartedMain] config.RepositoryConfigurationDelegate:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 12:48:07,440 INFO  [restartedMain] config.RepositoryConfigurationDelegate:208 Finished Spring Data repository scanning in 34 ms. Found 4 JPA repository interfaces.
+2023-04-27 12:48:07,561 INFO  [restartedMain] tomcat.TomcatWebServer:108 Tomcat initialized with port(s): 8080 (http)
+2023-04-27 12:48:07,589 INFO  [restartedMain] context.ServletWebServerApplicationContext:291 Root WebApplicationContext: initialization completed in 443 ms
+2023-04-27 12:48:07,754 INFO  [restartedMain] jpa.AbstractEntityManagerFactoryBean:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 12:48:08,296 WARN  [restartedMain] jpa.JpaBaseConfiguration$JpaWebConfiguration:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 12:48:08,594 INFO  [restartedMain] autoconfigure.OptionalLiveReloadServer:59 LiveReload server is running on port 35729
+2023-04-27 12:48:08,616 INFO  [restartedMain] tomcat.TomcatWebServer:220 Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 12:48:09,046 INFO  [restartedMain] boot.StartupInfoLogger:57 Started ProgettoRistorantiApplication in 1.93 seconds (process running for 1142.03)
+2023-04-27 12:48:09,049 INFO  [restartedMain] autoconfigure.ConditionEvaluationDeltaLoggingListener:63 Condition evaluation unchanged
+2023-04-27 12:48:09,073 INFO  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:29 Isnfo message
+2023-04-27 12:48:09,073 WARN  [restartedMain] progettoristoranti.ProgettoRistorantiApplication:30 Warning message
+2023-04-27 12:48:09,074 ERROR [restartedMain] progettoristoranti.ProgettoRistorantiApplication:31 Error message
+2023-04-27 12:48:09,074 FATAL [restartedMain] progettoristoranti.ProgettoRistorantiApplication:32 Fatal message
+2023-04-27 14:24:00,713 INFO  [File Watcher] autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-27 14:24:00,980 INFO  [Thread-19] jpa.AbstractEntityManagerFactoryBean:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 14:24:01,442 INFO  [restartedMain] logging.DeferredLog:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-27 14:24:01,443 INFO  [restartedMain] logging.DeferredLog:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-27 14:24:01,453 INFO  [restartedMain] boot.StartupInfoLogger:51 Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 21028 (C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti)
+2023-04-27 14:24:01,454 INFO  [restartedMain] boot.SpringApplication:632 No active profile set, falling back to 1 default profile: "default"
+2023-04-27 14:24:01,914 INFO  [restartedMain] config.RepositoryConfigurationDelegate:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 14:24:01,940 INFO  [restartedMain] config.RepositoryConfigurationDelegate:208 Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2023-04-27 14:24:02,107 INFO  [restartedMain] tomcat.TomcatWebServer:108 Tomcat initialized with port(s): 8080 (http)
+2023-04-27 14:24:02,141 INFO  [restartedMain] context.ServletWebServerApplicationContext:291 Root WebApplicationContext: initialization completed in 684 ms
+2023-04-27 14:24:02,370 INFO  [restartedMain] jpa.AbstractEntityManagerFactoryBean:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 14:24:02,978 WARN  [restartedMain] jpa.JpaBaseConfiguration$JpaWebConfiguration:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 14:24:03,236 INFO  [restartedMain] autoconfigure.OptionalLiveReloadServer:59 LiveReload server is running on port 35729
+2023-04-27 14:24:03,255 INFO  [restartedMain] tomcat.TomcatWebServer:220 Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 14:24:03,647 INFO  [restartedMain] boot.StartupInfoLogger:57 Started ProgettoRistorantiApplication in 2.234 seconds (process running for 6896.647)
+2023-04-27 14:24:03,649 INFO  [restartedMain] autoconfigure.ConditionEvaluationDeltaLoggingListener:63 Condition evaluation unchanged

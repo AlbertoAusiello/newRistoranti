@@ -1,11 +1,13 @@
 package it.sysman.progettoristoranti.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import it.sysman.progettoristoranti.Model.OSMInfo;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 
+@Repository
 public class OSMInfoDaoImpl implements OSMInfoDao{
 
 	@Autowired

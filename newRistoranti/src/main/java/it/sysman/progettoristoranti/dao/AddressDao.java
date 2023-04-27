@@ -7,10 +7,8 @@ import it.sysman.progettoristoranti.Model.Address;
 public interface AddressDao {
 
 	public List<Address>findAll();
-	public Address findByID();
-	public void deleteByID();
+	public Address findByID(int id);
+	public void deleteByID(int id);
 	public void deleteAll();
 	public boolean save(Address addr);
-	public boolean update();
-	
 }

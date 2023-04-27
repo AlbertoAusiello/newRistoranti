@@ -5,7 +5,7 @@
 	<Properties>
 		<Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} [%t] %-5level %Logger{36} -%msg%n 
 		</Property>
-		<Property name="APP_LOG_ROOT">C:\Users\sarex\Documents\GitHub\progetto-ristorani\progetto-ristoranti</Property>
+		<Property name="APP_LOG_ROOT">C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti</Property>
 	</Properties>
 
 	<Appenders>
@@ -38,7 +38,7 @@
 	
 	<Loggers>
 		<Root level="info">
-            <!-- <AppenderRef ref="Console"/> -->
+            <AppenderRef ref="Console"/>
             <AppenderRef ref="fileAppender" />
         </Root>
 	</Loggers>

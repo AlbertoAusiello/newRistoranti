@@ -1,0 +1,6 @@
+2023-04-27 15:09:49,366 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Isnfo message
+2023-04-27 15:09:49,367 WARN i.s.p.ProgettoRistorantiApplication [restartedMain] Warning message
+2023-04-27 15:09:49,367 ERROR i.s.p.ProgettoRistorantiApplication [restartedMain] Error message
+2023-04-27 15:09:49,367 FATAL i.s.p.ProgettoRistorantiApplication [restartedMain] Fatal message
+2023-04-27 15:10:12,902 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-27 15:10:12,905 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
