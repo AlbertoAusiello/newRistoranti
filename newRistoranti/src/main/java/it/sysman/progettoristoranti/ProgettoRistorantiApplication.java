@@ -10,7 +10,7 @@ import org.apache.logging.log4j.core.LoggerContext;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-@EnableJpaRepositories("it.sysman.progettoristoranti.Repository")
+//@EnableJpaRepositories("it.sysman.progettoristoranti.Repository")
 @SpringBootApplication
 public class ProgettoRistorantiApplication {
 

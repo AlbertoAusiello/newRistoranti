@@ -1,0 +1,2 @@
+2023-04-21 11:34:16,717 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(20)-127.0.0.1] Application shutdown requested.
+2023-04-21 11:34:17,289 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(20)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
