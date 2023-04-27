@@ -1,0 +1,32 @@
+{
+	"place_id": 354774901,
+	"licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+	"osm_type": "node",
+	"osm_id": 10738065018,
+	"boundingbox": [
+		"52.5132208",
+		"52.5133208",
+		"13.3909018",
+		"13.3910018"
+	],
+	"lat": "52.5132708",
+	"lon": "13.3909518",
+	"display_name": "Mensa HfM Charlottenstraße, 55, Charlottenstraße, Dorotheenstadt, Mitte, Berlino, 10117, Germania",
+	"class": "amenity",
+	"type": "restaurant",
+	"importance": 0.20000999999999997,
+	"icon": "https://nominatim.openstreetmap.org/ui/mapicons/food_restaurant.p.20.png",
+	"address": {
+		"amenity": "Mensa HfM Charlottenstraße",
+		"house_number": "55",
+		"road": "Charlottenstraße",
+		"neighbourhood": "Dorotheenstadt",
+		"suburb": "Mitte",
+		"borough": "Mitte",
+		"city": "Berlino",
+		"ISO3166-2-lvl4": "DE-BE",
+		"postcode": "10117",
+		"country": "Germania",
+		"country_code": "de"
+	}
+}

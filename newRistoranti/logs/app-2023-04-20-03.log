@@ -1,0 +1,39 @@
+2023-04-20 15:27:59,347 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 19268 (C:\Users\sarex\Documents\GitHub\progetto-ristorani\progetto-ristoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\progetto-ristorani\progetto-ristoranti)
+2023-04-20 15:27:59,358 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 15:27:59,422 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-20 15:27:59,423 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-20 15:28:00,148 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 15:28:00,216 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2023-04-20 15:28:01,347 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 15:28:01,465 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2041 ms
+2023-04-20 15:28:03,570 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 15:28:04,219 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 15:28:04,714 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 15:28:04,768 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 15:28:05,695 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Started ProgettoRistorantiApplication in 6.917 seconds (process running for 8.551)
+2023-04-20 15:28:05,726 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Isnfo message
+2023-04-20 15:28:05,726 WARN i.s.p.ProgettoRistorantiApplication [restartedMain] Warning message
+2023-04-20 15:28:05,726 ERROR i.s.p.ProgettoRistorantiApplication [restartedMain] Error message
+2023-04-20 15:28:05,727 FATAL i.s.p.ProgettoRistorantiApplication [restartedMain] Fatal message
+2023-04-20 16:39:25,703 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-20 16:39:26,082 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 16:39:26,538 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-20 16:39:26,539 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-20 16:39:26,548 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 19268 (C:\Users\sarex\Documents\GitHub\progetto-ristorani\progetto-ristoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\progetto-ristorani\progetto-ristoranti)
+2023-04-20 16:39:26,549 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 16:39:26,927 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 16:39:26,954 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2023-04-20 16:39:27,345 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 16:39:27,390 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 836 ms
+2023-04-20 16:39:27,685 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 16:39:27,936 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 16:39:28,154 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 16:39:28,172 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 16:39:28,877 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Started ProgettoRistorantiApplication in 2.37 seconds (process running for 4291.766)
+2023-04-20 16:39:28,881 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-20 16:39:28,917 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Isnfo message
+2023-04-20 16:39:28,917 WARN i.s.p.ProgettoRistorantiApplication [restartedMain] Warning message
+2023-04-20 16:39:28,917 ERROR i.s.p.ProgettoRistorantiApplication [restartedMain] Error message
+2023-04-20 16:39:28,918 FATAL i.s.p.ProgettoRistorantiApplication [restartedMain] Fatal message
+2023-04-20 17:11:18,779 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(86)-127.0.0.1] Application shutdown requested.
+2023-04-20 17:11:18,880 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(86)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'

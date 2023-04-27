@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+	<!-- Logging Properties -->
+	<Properties>
+		<Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} [%t] %-5level %Logger{36} -%msg%n 
+		</Property>
+		<Property name="APP_LOG_ROOT">C:\Users\sarex\Documents\GitHub\progetto-ristorani\progetto-ristoranti</Property>
+	</Properties>
+
+	<Appenders>
+		<!-- Console Appender -->
+		<Console name="Console" target="SYSTEM_OUT" follow="true">
+			<PatternLayout  >
+				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+			</PatternLayout>
+		</Console>
+		
+		<!-- File Appenders on need basis -->
+		<!-- FRAMEWORK LOG FILE -->
+		<RollingFile name="fileAppender"
+			fileName="${APP_LOG_ROOT}/logs.log"
+			filePattern="logs/app-%d{yyyy-MM-dd-hh}.log">
+			<PatternLayout  >
+				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<!-- Rolling over every day -->
+				<OnStartupTriggeringPolicy />
+				<TimeBasedTriggeringPolicy interval="10" modulate="true"/>
+				<SizeBasedTriggeringPolicy size="10MB" />
+			</Policies>
+			<!-- creates maximum 10 files x day -->
+			<DefaultRolloverStrategy max="10" />
+		</RollingFile>
+
+	</Appenders>
+	
+	<Loggers>
+		<Root level="info">
+            <!-- <AppenderRef ref="Console"/> -->
+            <AppenderRef ref="fileAppender" />
+        </Root>
+	</Loggers>
+</Configuration>
