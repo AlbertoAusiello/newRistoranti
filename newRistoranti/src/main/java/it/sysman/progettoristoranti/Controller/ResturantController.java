@@ -136,6 +136,7 @@ public class ResturantController {
 			return new ResponseEntity<ResturantDTO>(HttpStatus.CONFLICT);
 		}
 	}
+	@Operation(summary="reserarch controller using &-||",description="create a query passing any parameter using the and(or) logic")
 	@PostMapping("/resturants/search/{operator}")
 	public ResponseEntity<List<ResturantDTO>> search(@RequestBody AddressDTO a,@PathVariable String operator){
 		try {
