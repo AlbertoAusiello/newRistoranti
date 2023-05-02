@@ -1,0 +1,60 @@
+2023-05-02 12:13:41,247 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Isnfo message
+2023-05-02 12:13:41,248 WARN i.s.p.ProgettoRistorantiApplication [restartedMain] Warning message
+2023-05-02 12:13:41,248 ERROR i.s.p.ProgettoRistorantiApplication [restartedMain] Error message
+2023-05-02 12:13:41,248 FATAL i.s.p.ProgettoRistorantiApplication [restartedMain] Fatal message
+2023-05-02 12:13:42,120 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-02 12:13:42,123 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-05-02 12:13:42,262 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-1] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:13:44,064 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-3] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:13:44,860 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-4] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:13:45,513 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-5] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:13:46,079 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-6] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:13:46,679 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-7] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:13:47,260 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-8] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:13:47,838 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-10] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:14:48,831 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-1] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:17:32,316 ERROR i.s.p.C.ResturantController [http-nio-8080-exec-3] 400 BAD_REQUESTOn insert() function, Cannot inserert the given resturant
+2023-05-02 12:21:27,103 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-02 12:21:27,141 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:21:27,271 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02 12:21:27,272 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02 12:21:27,284 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 2872 (C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti)
+2023-05-02 12:21:27,284 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 12:21:27,758 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 12:21:27,794 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 4 JPA repository interfaces.
+2023-05-02 12:21:27,950 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-05-02 12:21:27,979 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 689 ms
+2023-05-02 12:21:28,174 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:21:29,030 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 12:21:29,283 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-05-02 12:21:29,304 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-02 12:21:29,918 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Started ProgettoRistorantiApplication in 2.678 seconds (process running for 478.997)
+2023-05-02 12:21:29,921 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-05-02 12:21:29,945 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Isnfo message
+2023-05-02 12:21:29,945 WARN i.s.p.ProgettoRistorantiApplication [restartedMain] Warning message
+2023-05-02 12:21:29,946 ERROR i.s.p.ProgettoRistorantiApplication [restartedMain] Error message
+2023-05-02 12:21:29,946 FATAL i.s.p.ProgettoRistorantiApplication [restartedMain] Fatal message
+2023-05-02 12:21:34,137 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-02 12:21:34,139 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-05-02 12:26:25,870 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-02 12:26:25,897 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:26:26,005 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02 12:26:26,005 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02 12:26:26,016 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Starting ProgettoRistorantiApplication using Java 17.0.6 with PID 2872 (C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti\target\classes started by sarex in C:\Users\sarex\Documents\GitHub\newRistoranti\newRistoranti)
+2023-05-02 12:26:26,016 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 12:26:26,456 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 12:26:26,493 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2023-05-02 12:26:28,675 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-05-02 12:26:28,700 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2680 ms
+2023-05-02 12:26:28,869 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:26:29,687 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 12:26:29,916 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-05-02 12:26:29,933 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-02 12:26:30,168 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2023-05-02 12:26:30,612 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Started ProgettoRistorantiApplication in 4.642 seconds (process running for 779.691)
+2023-05-02 12:26:30,614 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-05-02 12:26:30,634 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(21)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:26:30,641 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Isnfo message
+2023-05-02 12:26:30,642 WARN i.s.p.ProgettoRistorantiApplication [restartedMain] Warning message
+2023-05-02 12:26:30,642 ERROR i.s.p.ProgettoRistorantiApplication [restartedMain] Error message
+2023-05-02 12:26:30,642 FATAL i.s.p.ProgettoRistorantiApplication [restartedMain] Fatal message

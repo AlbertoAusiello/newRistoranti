@@ -144,13 +144,14 @@ public class ResturantServiceIMPL  implements ResturantService{
 		return rdto;
 	}
 	
+	@Transactional
 	public ResturantDTO update(int id, ResturantDTO rdt) {
 		ResturantDTO rdtTemp= getResturantID(id);
 		rdtTemp= modelMapper.map(rdt, ResturantDTO.class);
 		Coordinate cord = modelMapper.map(rdtTemp,Coordinate.class);
 		Address addr = modelMapper.map(rdtTemp.getAddress(), Address.class);
 		Country countr = modelMapper.map(rdtTemp.getAddress(), Country.class);
-		OSMInfo osminfo=modelMapper.map(rdtTemp, OSMInfo.class);
+		OSMInfo osminfo=modelMapper.map(rdtTemp, OSMInfo.class); 
 		addr.setCoor(cord);
 		addr.setCountry(cr.save(countr));
 		addr.setOsmId(osminfo);
@@ -171,6 +172,25 @@ public class ResturantServiceIMPL  implements ResturantService{
 		addr.setOsmId(osminfo);
 		ar.save(addr);
 		return rdtTemp;
+	}
+	
+	@Transactional
+	public List<ResturantDTO> cerca(AddressDTO adto, String operator){
+		List<Address> found= new ArrayList<>();
+		Address a= modelMapper.map(adto, Address.class);
+		found= ar.search(a, operator);
+		List<ResturantDTO> rdtoList= new ArrayList<>();
+		for(Address address :found) {
+			ResturantDTO rdto= new ResturantDTO();
+			AddressDTO ad= new AddressDTO();
+			ad= modelMapper.map(address, AddressDTO.class);
+			rdto= modelMapper.map(address.getOsmId(), ResturantDTO.class);
+			modelMapper.map(address.getCoor(), rdto);
+			rdto.setAddress(ad);
+			rdtoList.add(rdto);	
+		}
+		return rdtoList;
+		
 	}
 }
 

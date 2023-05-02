@@ -14,10 +14,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import io.swagger.v3.oas.annotations.Operation;
+import it.sysman.progettoristoranti.DTO.AddressDTO;
 import it.sysman.progettoristoranti.DTO.ResturantDTO;
+import it.sysman.progettoristoranti.Model.Address;
 import it.sysman.progettoristoranti.Service.ResturantServiceIMPL;
 import jakarta.annotation.PostConstruct;
 
@@ -131,6 +134,15 @@ public class ResturantController {
 		} catch (Exception e) {
 			LOGGER.error(HttpStatus.BAD_REQUEST +"On insert() function, Cannot inserert the given resturant");
 			return new ResponseEntity<ResturantDTO>(HttpStatus.CONFLICT);
+		}
+	}
+	@PostMapping("/resturants/search/{operator}")
+	public ResponseEntity<List<ResturantDTO>> search(@RequestBody AddressDTO a,@PathVariable String operator){
+		try {
+			return new ResponseEntity<List<ResturantDTO>>(service.cerca(a,operator),HttpStatus.OK);
+		} catch (Exception e) {
+			LOGGER.error(HttpStatus.BAD_REQUEST +"On insert() function, Cannot inserert the given resturant");
+			return new ResponseEntity<List<ResturantDTO>>(HttpStatus.CONFLICT);
 		}
 	}
 }

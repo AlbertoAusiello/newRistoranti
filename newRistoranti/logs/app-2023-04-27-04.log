@@ -1,0 +1,6 @@
+2023-04-27 16:03:54,372 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Isnfo message
+2023-04-27 16:03:54,372 WARN i.s.p.ProgettoRistorantiApplication [restartedMain] Warning message
+2023-04-27 16:03:54,372 ERROR i.s.p.ProgettoRistorantiApplication [restartedMain] Error message
+2023-04-27 16:03:54,372 FATAL i.s.p.ProgettoRistorantiApplication [restartedMain] Fatal message
+2023-04-27 17:21:26,507 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(50)-127.0.0.1] Application shutdown requested.
+2023-04-27 17:21:26,805 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(50)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'

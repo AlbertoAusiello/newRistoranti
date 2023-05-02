@@ -1,0 +1,7 @@
+2023-05-02 11:35:00,829 INFO i.s.p.ProgettoRistorantiApplication [restartedMain] Isnfo message
+2023-05-02 11:35:00,829 WARN i.s.p.ProgettoRistorantiApplication [restartedMain] Warning message
+2023-05-02 11:35:00,830 ERROR i.s.p.ProgettoRistorantiApplication [restartedMain] Error message
+2023-05-02 11:35:00,830 FATAL i.s.p.ProgettoRistorantiApplication [restartedMain] Fatal message
+2023-05-02 11:35:34,311 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-02 11:35:34,313 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-05-02 11:37:25,737 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
